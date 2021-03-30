@@ -1,11 +1,9 @@
-# new-install
-
 ## All the stuff needed for a new computer
 
 ### Homebrew
 
-- Install Homebrew `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  `
+- Install Homebrew `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
 
 ### Git
 - Install with `brew install git`
@@ -25,22 +23,33 @@ Host *
 - Copy key to GH account `pbcopy < ~/.ssh/id_ed25519.pub`
 
 
-### IDE
+### Node
 
-- Download from https://www.jetbrains.com/idea/download/#section=mac
-- Import the settings Drive
+- Install nvm: `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`
+
 
 ### Command Line
 
 - Download from https://iterm2.com/
-- Install
+- Install Oh My ZSH `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+- Update `omz update`
+- Create `touch ~/.profile`
+- Copy profile
+- Copy and replace .zshrc
+- Install fonts `git clone https://github.com/powerline/fonts.git && cd fonts && ./install.sh`
+- Change fonts on Iterm
 
-
-### Node
 
 ### JQ
 
 - Install with `brew install jq`
 
 
+### IDE
+
+- Download from https://www.jetbrains.com/idea/download/#section=mac
+- Import the settings Drive
+
 ### Postman
+
+- Download from https://www.postman.com/downloads/
